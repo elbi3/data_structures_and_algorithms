@@ -16,6 +16,7 @@
 
 ## testing descriptions and results
 - description of each test case and the results (show photo?)
+![selection sort test snippet](screenshot_selectionsort.png)
 
 ## stability
 - selection sort is not stable by default
