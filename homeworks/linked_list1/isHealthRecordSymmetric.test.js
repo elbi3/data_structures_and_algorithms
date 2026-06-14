@@ -1,12 +1,18 @@
-import { Node, LinkedList } from './solution.js';
+import { Node, SinglyLinkedList, isHealthRecordSymmetric } from "./isHealthRecordSymmetric.js";
 
 describe('LinkedList', () => {
+  test("SinglyLinkedList starts empty", () => {
+    const emptyList = new SinglyLinkedList();
+
+    expect(emptyList.length).toEqual(0);
+  });
   it.todo('starts empty');
   it.todo('inserts a value');
   it.todo('removes a value');
   it.todo('finds a value');
   it.todo('handles operations on an empty list gracefully');
-
-  // Write your real tests above as you record — delete the
-  // it.todo lines as you replace them.
 });
+
+// const input = [stuff];
+// const expected = [output];
+// expect(someFunction(input)).toEqual(expectedOutput);

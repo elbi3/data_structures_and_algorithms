@@ -1,4 +1,4 @@
-import { myInsertionSort } from "./myInsertionSort.js";
+import myInsertionSort from "./myInsertionSort.js";
 
 describe('myInsertionSort', () => {
   it('sorts a small array of integers', () => {
@@ -33,4 +33,24 @@ describe('myInsertionSort', () => {
   it('handles a single-element array', () => {
     expect(myInsertionSort([42])).toEqual([42]);
   });
+
+  // it('maintains stability for equal keys', () => {
+  //   const input = [
+  //     { value: 5, id: 'A' },
+  //     { value: 3, id: 'B' },
+  //     { value: 5, id: 'C' },
+  //     { value: 1, id: 'D' },
+  //     { value: 3, id: 'E' }
+  //   ];
+
+  //   const result = myInsertionSort(input);
+
+  //   expect(result).toEqual([
+  //     { value: 1, id: 'D' },
+  //     { value: 3, id: 'B' },
+  //     { value: 3, id: 'E' },
+  //     { value: 5, id: 'A' },
+  //     { value: 5, id: 'C' }
+  //   ]);
+  // });
 });

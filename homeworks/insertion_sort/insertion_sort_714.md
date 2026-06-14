@@ -37,8 +37,8 @@
 - what is the average-case time complexity and compares the best and worst cases
 
 ### space complexity
-- mention it:
-- explain why insertion sort is considered "in-place" sorting algorithm
+- since insertion-sort is "in-place", it does not have a meaningful additional space complexity.
+- insertion sort is considered an "in-place" sorting algorithm because we use the current memory where the array is stored and do not create a duplicate. We do not need additional memory for array space, just the memory required for movement.
 
 ### stability
 - demonstrate the stability of the function by:
@@ -46,8 +46,25 @@
     - ensure some of these have equal keys on which you're sorting but different secondary attributes.
 - show that after sorting, elements with equal keys maintain their original relative order.
 
-## conclude with report:
-- summarizing your findings, including:
-- implementation logic for both the basic and optimized Bubble Sort implementations,
-- description of each test case and the results,
-- analysis of the algorithm's time and space complexity
+code is not stable, this is the test that needs to pass for futher optimization:
+```js
+  it('maintains stability for equal keys', () => {
+    const input = [
+      { value: 5, id: 'A' },
+      { value: 3, id: 'B' },
+      { value: 5, id: 'C' },
+      { value: 1, id: 'D' },
+      { value: 3, id: 'E' }
+    ];
+
+    const result = myInsertionSort(input);
+
+    expect(result).toEqual([
+      { value: 1, id: 'D' },
+      { value: 3, id: 'B' },
+      { value: 3, id: 'E' },
+      { value: 5, id: 'A' },
+      { value: 5, id: 'C' }
+    ]);
+  });
+  ```
