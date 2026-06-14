@@ -1,0 +1,16 @@
+{
+  "name": "data-structures-algorithms",
+  "version": "1.0.0",
+  "description": "Sorting algorithms and linked-list data structure homeworks",
+  "type": "module",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.8"
+  }
+}
