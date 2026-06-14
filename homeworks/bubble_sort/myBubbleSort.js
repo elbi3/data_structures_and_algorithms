@@ -1,4 +1,4 @@
-export default function bubbleSort(arr){
+export default function myBubbleSort(arr){
     for(let i = 0; i < arr.length; i++) {
         //how do we adjust length since we don't need to check the "tail"
     }
