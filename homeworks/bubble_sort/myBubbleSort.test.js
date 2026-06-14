@@ -1,5 +1,4 @@
-import { myBubbleSort } from "./myBubbleSort.js";
-
+import myBubbleSort from "./myBubbleSort.js";
 
 describe('myBubbleSort', () => {
   it.todo('sorts a randomly generated array of integers');

@@ -27,4 +27,4 @@
 
 ## testing descriptions and results
 - description of each test case and the results (show photo?)
-
+- run `npx vitest .\homeworks\bubble_sort\myBubbleSort.test.js`

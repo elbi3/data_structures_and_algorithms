@@ -21,13 +21,10 @@
 - test case 6: try a single-element array (edge case)
 
 ## analysis
-- what is the time complexity of this implementation?
+- time complexity of this implementation?  O(n²) on worst and average cases
+- if an early-exit is added, there is O(n)
 - how does the algorithm's iterative comparison and swapping mechanism leads to its O(n^2) complexity in the average and worst cases?
 - what is the space complexity of this implementation and why is it considered an in-place sorting algorithm?
 - explain the potential stability of Bubble Sort and whether it maintains the order of equal elements
+-  insertion sort does roughly half as many comparisons/swaps on average and is considered more "efficient" in practice, even though both have the same Big-O complexity. Bubble sort is mostly taught for its conceptual simplicity rather than because it's actually used much.
 
-## conclude with report:
-- summarizing your findings, including:
-- implementation logic for both the basic and optimized Bubble Sort implementations,
-- description of each test case and the results,
-- analysis of the algorithm's time and space complexity

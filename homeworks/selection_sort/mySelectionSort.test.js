@@ -1,4 +1,4 @@
-import { mySelectionSort } from './mySelectionSort.js';
+import mySelectionSort from './mySelectionSort.js';
 
 describe('mySelectionSort', () => {
   it('sorts a randomly generated array of integers', () => {
