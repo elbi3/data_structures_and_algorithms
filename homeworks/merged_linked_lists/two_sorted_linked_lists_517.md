@@ -40,14 +40,4 @@ Patient A:
     - 3 test cases testing normal cases  
     - 3 test cases testing edge cases
 
-## video
-(notes for me)
-don't forget:
-- include diagrams if you have any
-- present Time and Space complexity of your solution. 
-- explain the trade-offs
-- are there optimization opportunities?
-
-## complexity
-- Time: O(m + n)
-- Space: O(1) (reusing existing nodes)
+<img width="948" height="698" alt="Screenshot 2026-06-14 203326" src="https://github.com/user-attachments/assets/d50be1a9-d9c9-407c-8d6f-962a93bf91a4" />
