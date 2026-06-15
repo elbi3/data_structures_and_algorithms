@@ -10,10 +10,11 @@ npm install        # first time only
 npm test           # run all tests once
 npm run test:watch # re-run on save — good for live recording
 ```
-To run a single homework's tests while recording refer to the homework folder:
+To run a single homework's tests make sure you are in the root of the project.
+Refer to the correct homework folder and file:
 
 ```bash
-npx vitest homeworks/bubble_sort 
+npx vitest .\homeworks\merged_linked_lists\mergeLinkedLists.test.js
 ```
 
 

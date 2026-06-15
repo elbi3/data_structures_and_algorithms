@@ -47,3 +47,7 @@ don't forget:
 - present Time and Space complexity of your solution. 
 - explain the trade-offs
 - are there optimization opportunities?
+
+## complexity
+- Time: O(m + n)
+- Space: O(1) (reusing existing nodes)
